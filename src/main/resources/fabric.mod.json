@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "powahmachinery",
+	"version": "${version}",
+	"name": "Powah! Machinery",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"MrBiscuit!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/powahmachinery/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mrbiscuit.powahmachinery.PowahMachinery"
+		],
+		"client": [
+			"net.mrbiscuit.powahmachinery.PowahMachineryClient"
+		],
+		"fabric-datagen": [
+			"net.mrbiscuit.powahmachinery.PowahMachineryDataGenerator"
+		]
+	},
+	"mixins": [
+		"powahmachinery.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
