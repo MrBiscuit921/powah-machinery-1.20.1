@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:block/orientable",
   "variants": {
     "facing=east,lit=false": {
       "model": "powahmachinery:block/powered_furnace",

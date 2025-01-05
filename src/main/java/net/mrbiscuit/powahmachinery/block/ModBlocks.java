@@ -15,7 +15,7 @@ public class ModBlocks {
     public static final Block Powered_Furnace = registerBlock("powered_furnace",
             new Block(FabricBlockSettings.copyOf(Blocks.FURNACE)));
 
-    private static Block registerBlock(String name, Block block){
+    private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(PowahMachinery.MOD_ID, name), block);
     }
