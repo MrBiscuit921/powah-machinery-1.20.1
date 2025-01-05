@@ -3,6 +3,7 @@ package net.mrbiscuit.powahmachinery;
 import net.fabricmc.api.ModInitializer;
 
 import net.mrbiscuit.powahmachinery.block.ModBlocks;
+import net.mrbiscuit.powahmachinery.item.ModItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +15,7 @@ public class PowahMachinery implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
 
 		ModBlocks.registerModBlocks();
 	}
