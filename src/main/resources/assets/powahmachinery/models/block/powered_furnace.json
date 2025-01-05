@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "front": "PowahMachinery:block/powered_furnace_front",
+    "side": "PowahMachinery:block/powered_furnace_side",
+    "top": "PowahMachinery:block/powered_furnace_top"
+  }
+}
