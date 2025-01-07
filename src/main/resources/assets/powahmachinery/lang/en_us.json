@@ -1,5 +1,8 @@
 {
   "block.powahmachinery.powered_furnace": "Powered Furnace",
+  "container.powahmachinery.furnace": "Furnace",
+
+  "tooltip.powahmachinery.energy": "Energy: %d / %d FE",
 
   "itemgroup.powahmachinery": "Powah Machinery"
 }
